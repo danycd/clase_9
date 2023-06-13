@@ -151,27 +151,202 @@
     line-height: 18px;
 }
 
-.footer-container-top{
-    background-color: #3c2313;
-    color: #f3f3f3;
-    height: 284px;
+.formulario {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-}
-
-.logo-end{
-    color: #ffffff;
-}
-
-.logo-end2{
-    color: #f0a83e;
-}
-
-.footer-container-bottom{
-    background-color: #222222;
     text-align: center;
-    color: #f3f3f3;
+    margin-top: 34px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+.formulario input {
+    font-size: 9px;
+    width: 298px;
+    height: 40px;
+    background: #3C2313;
+    border-radius: 15px;
+    margin: 5px 0 0 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario .formbuton {
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario button {
+    margin: 48px 0 45px 0;
+    width: 199px;
+    height: 45px;
+    background: #8A8787;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    margin: 48px 5px 45px 5px;
+}
+
+.formulario .enviar {
+    background: #F0A83E;
+}
+
+.suscribcion {
+    display: flex;
+    background-color: #F0A83E;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 415px)
+{
+    .suscribcion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 47px 0 23px;
+    }
+}
+
+.sustitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 415px)
+{
+    .sustitulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14px;
+    }
+}
+
+.sustitulo > div:last-child {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.susformulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.susformulario input {
+    width: 261px;
+    height: 40px;
+    bottom: 344px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 8px 9px 10px 15px;
+    font-weight: 400;
     font-size: 10px;
-    height: 20px;
+    line-height: 12px;
+    color: #A0A0A0;
+    border: none;
+}
+
+.menufooter {
+    background-color: #3C2313;
+}
+
+@media only screen and (min-width: 415px)
+{
+    .menufooter {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 70px 0 70px;
+    }
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+}
+
+@media only screen and (min-width: 415px)
+{
+    .menufooter .logo2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.logo2 img {
+    padding: 0 2px 0 2px;
+    height: 12px;
+    width: 12px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 14px;
+    align-items: left;
+    margin-left: 87px;
+}
+
+.mensajefooter {
+    background-color: #222222;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contacto .datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 14px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.contacto .datos img {
+    width: 68px;
+    height: 68px;
+}
+
+.contacto .datos .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 15px;
 }
